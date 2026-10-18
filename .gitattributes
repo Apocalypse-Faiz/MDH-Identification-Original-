@@ -1,0 +1,5 @@
+# Keep original sources and recorded artifact hashes stable across checkouts.
+* -text
+*.mat binary
+*.fig binary
+*.png binary

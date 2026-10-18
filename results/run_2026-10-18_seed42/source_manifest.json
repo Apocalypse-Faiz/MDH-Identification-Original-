@@ -1,0 +1,127 @@
+{
+  "initial_source_commit": "c8e9eab7fb02e8a09d3723fabd072154d2378488",
+  "client_run_date": "2026-10-18",
+  "seed": 42,
+  "matlab_version": "24.1.0.2537033 (R2024a)",
+  "original_project_files": [
+    {
+      "path": "adjoint.m",
+      "bytes": 100,
+      "sha256": "e4994ac78732a0bf4a119b03f798f948080283621290f135086dbb29aab76c07"
+    },
+    {
+      "path": "axis_angle.m",
+      "bytes": 86,
+      "sha256": "933955bb8d41dfe5f4de9f512361ef8dd34ab5da074362be2fa446f7f0e3750e"
+    },
+    {
+      "path": "cal_Jacobian.m",
+      "bytes": 196,
+      "sha256": "37a180352ebdff9df463fcd92ce17a6abe8dd1060161c61345bcc022b4b94bd9"
+    },
+    {
+      "path": "fkine.m",
+      "bytes": 133,
+      "sha256": "02429d861cbb9267aa2da84826eba9261716f858bad123c31cf1e49ec3f6c50d"
+    },
+    {
+      "path": "identification_results.txt",
+      "bytes": 548,
+      "sha256": "7ab55a855a3aae96d1170a58b18310b300cdddb1aadafd5f9955bb2629b45ed5"
+    },
+    {
+      "path": "identified_mdh_params.mat",
+      "bytes": 879,
+      "sha256": "b9f4cb3bf7067e26e17a04e4c97ad1eda0bf9a8595b9e687f834e019defd45e4"
+    },
+    {
+      "path": "ikine.m",
+      "bytes": 524,
+      "sha256": "fd3b78ccf89db018e48fadd4765eaede36a146084cf136608a5c0fa730431249"
+    },
+    {
+      "path": "main.m",
+      "bytes": 20520,
+      "sha256": "da4643688c6b47685551e624d1db5d30729ae544a28237a62715a6f7a20df17c"
+    },
+    {
+      "path": "matrix_exp3.m",
+      "bytes": 265,
+      "sha256": "604ed13c0c8d0116d41a87e0296b2d665013f90673a9e87fd717544bea7910f2"
+    },
+    {
+      "path": "matrix_exp6.m",
+      "bytes": 460,
+      "sha256": "2c5ccbc04599af88d7deebb4ad0746ba7557b5c5f5c09843fdd369937b73d6fa"
+    },
+    {
+      "path": "matrix_log3.m",
+      "bytes": 652,
+      "sha256": "9838fcbc9d252e97e0294d9084ddd69ed81d5d670e44053cf65e5c411243693b"
+    },
+    {
+      "path": "matrix_log6.m",
+      "bytes": 418,
+      "sha256": "1ff51b12b223f70c92a7edec93778adc192479539a87f799ab147751cb31296d"
+    },
+    {
+      "path": "mdh_identification_results.mat",
+      "bytes": 8686,
+      "sha256": "d68e66ecad1b66c4092ed06c8b5e52f463a147814ac296457d7daa69a63ad7bc"
+    },
+    {
+      "path": "near_zero.m",
+      "bytes": 71,
+      "sha256": "41818db7ce8f4399f963c46a464f2d28e3077e69603789cf549192c134cc7451"
+    },
+    {
+      "path": "se3_to_vec.m",
+      "bytes": 91,
+      "sha256": "c3cc01e8cdacb2b167aafade4ccd9c84d8d49c82e2de9df55b3dde6d4ce3b966"
+    },
+    {
+      "path": "so3_to_vec.m",
+      "bytes": 77,
+      "sha256": "ea0bcfc4a5406fc7f5d1c5159fca9a76f4a3a9c494d6ca7421f0c0ad42747f4b"
+    },
+    {
+      "path": "trans_inv.m",
+      "bytes": 116,
+      "sha256": "d756dcb0d897455d603a6c7e097bb2c20f7885e2c3a2c91d90d9145be72d5ca3"
+    },
+    {
+      "path": "trans_to_Rp.m",
+      "bytes": 74,
+      "sha256": "e4f753d03d44e0b6090ecc098bb9056980441298fb702963ba3745aca187225c"
+    },
+    {
+      "path": "transformation_mdh.m",
+      "bytes": 339,
+      "sha256": "5757f341f25e4bf0b81d11e76f293a787fe7f3713d7bc539a6020a6a1513892b"
+    },
+    {
+      "path": "vec_to_se3.m",
+      "bytes": 84,
+      "sha256": "3edfab461d87e8ddb71f7ca57b0b98f59ef64d2019ffac91b253a9abc26c1cf9"
+    },
+    {
+      "path": "vec_to_so3.m",
+      "bytes": 118,
+      "sha256": "f58bbeee287b6a4c2464201a0ad5ab624a3c3f684ea6ab0081e904b03edf3159"
+    }
+  ],
+  "executed_source_copies": [
+    {
+      "original": "main.m",
+      "executed_copy": "execution/main.m",
+      "sha256": "da4643688c6b47685551e624d1db5d30729ae544a28237a62715a6f7a20df17c"
+    },
+    {
+      "original": "transformation_mdh.m",
+      "executed_copy": "execution/transformation_mdh.m",
+      "sha256": "5757f341f25e4bf0b81d11e76f293a787fe7f3713d7bc539a6020a6a1513892b"
+    }
+  ],
+  "original_optimizer_changed": false,
+  "notes": "The original 21 files match the initial ZIP. Complex-step Jacobians, orientation checks and extra figures are post-hoc only."
+}
